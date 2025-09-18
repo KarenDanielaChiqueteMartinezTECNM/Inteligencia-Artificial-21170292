@@ -1,0 +1,44 @@
+Problema: "El viajero en ciudades conectadas"
+Imagina que un viajero quiere desplazarse entre distintas ciudades conectadas por carreteras.
+Las ciudades y carreteras forman el siguiente grafo:
+
+         (A)
+        /   \
+     2 /     \ 5
+      /       \
+    (B)---1---(C)
+     |         |
+   4 |         | 2
+     |         |
+    (D)-------(E)
+          3
+
+Cada nodo representa una ciudad.
+
+Cada arista representa una carretera que conecta dos ciudades.
+
+El número sobre cada arista es el costo del viaje (puede representar distancia en km o tiempo en horas).
+
+--Planteamiento--
+
+El viajero quiere ir desde la ciudad A hasta la ciudad E.
+
+Tu tarea es resolver el problema aplicando tres algoritmos distintos:
+
+Búsqueda Primero en Anchura (BFS)
+
+Considera que todas las aristas tienen el mismo costo (ignora los números).
+
+Encuentra la ruta con el menor número de saltos de ciudades.
+
+Búsqueda Primero en Profundidad (DFS)
+
+Explora lo más profundo posible antes de retroceder.
+
+Encuentra una ruta cualquiera de A a E, aunque no necesariamente la más corta.
+
+Búsqueda de Costo Uniforme (UCS)
+
+Considera ahora los costos de las aristas.
+
+Encuentra la ruta de costo mínimo entre A y E.
