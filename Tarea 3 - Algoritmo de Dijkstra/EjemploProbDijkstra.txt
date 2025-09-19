@@ -1,0 +1,13 @@
+// Ejemplo tomado de "Profesor Oscar Luis" en YouTube
+// Link: https://youtu.be/gocE-gooeBQ?si=qmXvrSY2F3PfHrNr
+// Crédito al autor original
+
+Se muestra un sistema de caminos rurales entre las localidades 1,2,... y 8, el 
+numero anexo a cada camino indica la distancia en millas. Use el algoritmo  Dijkstra 
+para determinar la ruta más corta entre las siguientes localidades:
+
+a) 1 y 8
+b) 1 y 6
+c) 4 y 8
+d) 2 y 6
+    
